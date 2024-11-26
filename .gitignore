@@ -1,0 +1,64 @@
+.eggs
+
+######################
+# Logs and databases #
+######################
+*\.log
+.DS_Store
+
+
+#############
+# vim files #
+#############
+*\.swp
+*~
+\#*\#
+
+################# 
+# pycharm files #
+#################
+\.idea
+
+##########################
+# Python complied source #
+##########################
+*\.pyc
+*\.pyo
+build/
+dist/
+doc/_build/
+
+##################
+# coverage files #
+##################
+htmlcov/
+.coverage
+!/.github/workflows/.coverage
+coverage_html/
+
+####################
+# MacSyFinder data #
+####################
+data/
+sandbox/
+!/tests/data
+
+##################
+# generated file #
+##################
+MANIFEST
+
+########
+# ruff #
+########
+.ruff_cache/
+
+#########
+# stuff #
+#########
+.ipynb_checkpoints
+benchmark/
+Conda/
+Sandbox/
+perf/
+score_analysis/
